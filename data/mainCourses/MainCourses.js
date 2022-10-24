@@ -1,0 +1,15 @@
+[
+    {
+        "id": "01",
+        "name": "Programming"
+    },
+    {
+        "id": "02",
+        "name": "Digital Marketing"
+    },
+    {
+        "id": "03",
+        "name": "Graphic Design"
+    },
+
+]
