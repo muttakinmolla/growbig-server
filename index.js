@@ -9,6 +9,8 @@ app.use(cors());
 const courses = require('./data/mainCourses/MainCourses.json');
 const allCourses = require('./data/AllCourse/AllCourses.json');
 
+
+
 app.get('/news', (req, res) => {
     res.send(courses)
 })
