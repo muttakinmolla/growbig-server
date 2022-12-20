@@ -31,6 +31,12 @@ app.get('/course-details/:id', (req, res) => {
     res.send(course_details);
 })
 
+
+app.get('/', async (req, res) => {
+    res.send('bike pickers server is running')
+})
+
+
 app.listen(port, () => {
     console.log('my server is running', port)
 })
